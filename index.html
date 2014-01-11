@@ -2,7 +2,7 @@
 layout: home
 title: Resume Gold
 ---
-		{% for post in site.posts limit: 10 %}
+		{% for post in site.posts limit: 100 %}
 		{% if post.category == null %}
 		<div class="post">
 			<h1><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a> <small> {{ post.date | date_to_string }}</small></h1>
