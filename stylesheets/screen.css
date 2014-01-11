@@ -186,6 +186,15 @@ header h1 {
   padding: 14px 20px 0;
 }
 
+header h1 a {
+    color: #ece4d8;
+	text-decoration:none;
+}
+header h1 a:hover {
+    color: #ece4d8;
+	text-decoration:none;
+}
+
 header h2 {
   background-color: #7c334f;
   font: bold italic .85em/1.5 Georgia, Times, “Times New Roman”, serif;
@@ -566,4 +575,7 @@ dd p:first-child {
   margin: .8em 0;
   font-size: .85em;
   font-style: italic;
+}
+.post {
+	margin-bottom:50px;
 }
