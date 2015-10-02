@@ -1,3 +1,9 @@
 name: Trever Shick
-pygments: true
 baseurl: /resume-gold
+url: http://trevershick.github.io
+
+exclude: [vendor]
+highlighter: true
+gems:
+  - jekyll-sitemap
+title: Resume Gold

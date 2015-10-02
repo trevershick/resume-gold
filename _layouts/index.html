@@ -17,7 +17,7 @@
         $('#main_content').headsmart()
       })
     </script>
-    <title>Resume-gold by trevershick</title>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{site.title}}{%endif%}</title>
   </head>
 
   <body>
@@ -94,6 +94,6 @@ $ git checkout gh-pages
 
     </div>
 
-    
+
   </body>
 </html>
